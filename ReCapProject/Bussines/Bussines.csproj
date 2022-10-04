@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAcses\DataAcses.csproj" />
+    <ProjectReference Include="..\Entitiy\Entitiy.csproj" />
+  </ItemGroup>
+
+</Project>
